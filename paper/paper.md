@@ -6,25 +6,58 @@ tags:
   - PubChem
   - unknown chemical substances
 authors:
-  - name: First Author
+  - name: Yosuke Kawai
     affiliation: 1
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
+  - name: Toshiaki Katayama
     affiliation: 2
+  - name: Maxat Kulmanov
+    affiliation: 3
+  - name: Toyoyuki 
+    affiliation: 4
+  - name: Yuki
+    affiliation: 5
+  - name: Nobutaka
+    affiliation: 6
+  - name: Hirokazu
+    affiliation: 7
+  - name: Tsuyoshi
+    affiliation: 8
+  - name: Dorothy Ellis
+    affiliation: 9
+  - name: Pitiporn (Sam)
+    affiliation: 10
+  - name: Mayumi
+    affiliation: 11
+  - name: Núria
+    affiliation: 12
+  - name: Shuichi
+    affiliation: 13
+  - name: Kentaro (Yamaken)
+    affiliation: 14
+  - name: David
+    affiliation: 15
+  - name: Takatomo
+    affiliation: 16
+  - name: Hiroyuki Mishima
+    affiliation: 17
+  - name: Tazro
+    affiliation: 18
 affiliations:
   - name: First Affiliation
     index: 1
   - name: Second Affiliation
     index: 2
-date: 8 November 2023
+  - name: RIKEN Center for Integrative Medical Sciences
+    index: 9
+date: 30 August 2024
 cito-bibliography: paper.bib
 event: BH23EU
-biohackathon_name: "BioHackathon Europe 2023"
+biohackathon_name: "BioHackathon Japan 2024"
 biohackathon_url:   "https://biohackathon-europe.org/"
-biohackathon_location: "Barcelona, Spain, 2023"
-group: Project 26
+biohackathon_location: "Fukushima, Japan, 2024"
+group: Genome variation
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackrxiv/publication-template
+git_url: https://github.com/biohackrxiv/bh24-genome-variation
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: First Author \emph{et al.}
@@ -33,7 +66,7 @@ authors_short: First Author \emph{et al.}
 
 # Introduction
 
-As part of the BioHackathon Europe 2023, we here report...
+The widespread use of sequencers has generated a flood of data that has greatly faciliated the analysis and understanding of the human genome. Simple variations such as single nucleotide variants (SNVs) and indels have been integrated with the comprehensive Japanese genetic variation database TogoVar, but there is currently no standardized representation for structural variants. Pangenome graphs have also emerged as a powerful tool to integrate multiple haplotypes. To facilitate the integration of structural variants, we developed a Common Workflow Language (CWL) script to add TogoVar information to variant call format (VCF) files. We also ....
 
 # Formatting
 
